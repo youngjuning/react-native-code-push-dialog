@@ -1,0 +1,29 @@
+{
+  "name": "@youngjuning/react-native-code-push-dialog",
+  "version": "0.0.0",
+  "description": "The Code Push Dialog for React Native",
+  "keywords": [
+    "react-native-code-push",
+    "react-native",
+    "dialog",
+    "code-push"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push --tags && git push && npm publish"
+  },
+  "homepage": "https://github.com/youngjuning/react-native-code-push-dialog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngjuning/react-native-code-push-dialog.git"
+  },
+  "author": {
+    "name": "杨俊宁",
+    "email": "1003719811@qq.com",
+    "url": "https://youngjuning.js.org"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.61.17",
+    "react-native-code-push": "^6.1.0"
+  }
+}
